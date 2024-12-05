@@ -22,7 +22,7 @@ const UserRegisterPage = async ({ params: { userId: userId } }: Props) => {
       <section className="remove-scrollbar container">
         <div className="sub-container max-w-[860px] flex-1 flex-col py-10">
           <Image
-            src="/assets/icons/logo2-moodcare.png"
+            src="/assets/icons/logo-full1.svg"
             height={100}
             width={100}
             alt="Logo"

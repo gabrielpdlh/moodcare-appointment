@@ -13,7 +13,7 @@ const AdminPage = async () => {
       <header className="admin-header">
         <Link href={'/'} className="cursor-pointer">
           <Image
-            src="/assets/icons/logo2-moodcare.png"
+            src="/assets/icons/logo-full1.svg"
             height={32}
             width={162}
             alt="Logo"
@@ -28,7 +28,7 @@ const AdminPage = async () => {
         <section className="w-full space-y-4">
           <h1 className="header">Bem vindo, gestor!</h1>
           <p className="text-dark-700">
-          Comece o dia gerenciando novas consultas
+            Comece o dia gerenciando novas consultas
           </p>
         </section>
 

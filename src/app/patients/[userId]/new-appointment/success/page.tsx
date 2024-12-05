@@ -28,7 +28,7 @@ const SuccessPage = async ({
       <div className="success-img">
         <Link href={'/'}>
           <Image
-            src="/assets/icons/logo2-moodcare.png"
+            src="/assets/icons/logo-full1.svg"
             height={1000}
             width={1000}
             alt="logo"
@@ -45,7 +45,7 @@ const SuccessPage = async ({
           />
           <h2 className="header mb-6 max-w-[600px] text-center">
             Sua <span className="text-green-500">consulta </span>
-             foi marcada!
+            foi marcada!
           </h2>
           <p>Entraremos em contato em breve para confirmar</p>
         </section>

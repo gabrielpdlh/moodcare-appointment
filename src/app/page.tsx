@@ -13,7 +13,7 @@ export default function Home({ searchParams }: SearchParamProps) {
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
           <Image
-            src="/assets/icons/logo2-moodcare.png"
+            src="/assets/icons/logo-full1.svg"
             height={100}
             width={100}
             alt="Logo"

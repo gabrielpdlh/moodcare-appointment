@@ -11,8 +11,12 @@ const fontSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Carepulse',
-  description: 'A healthcare management system',
+  title: 'MoodCare',
+  icons: {
+    icon: '/assets/icons/icon.svg', 
+  },
+  description:
+    'Agende consultas com profissionais especializados no cuidado de pacientes autistas.',
 };
 
 export default function RootLayout({
