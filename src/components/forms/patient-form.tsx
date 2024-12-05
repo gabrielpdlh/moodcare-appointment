@@ -45,8 +45,11 @@ const PatientForm = () => {
       <form onSubmit={form.handleSubmit(onSubmit)} className="flex-1 space-y-6">
         <section className="mb-12 space-y-4">
           <h1 className="header">Olá, seja bem vindo(a)!</h1>
-          <p className="text-dark-700"> Agende consultas com psicólogos, terapeutas e outros
-          profissionais especializados, tudo em um só lugar.</p>
+          <p className="text-dark-700">
+            {' '}
+            Agende consultas com psicólogos, terapeutas e outros profissionais
+            especializados, tudo em um só lugar.
+          </p>
         </section>
 
         <CustomFormField
@@ -74,7 +77,7 @@ const PatientForm = () => {
           control={form.control}
           name="phone"
           label="Telefone"
-          placeholder="(011) 96969-6969"
+          placeholder="(055) 96969-6969"
         />
 
         <SubmitButton isLoading={isLoading}>Entrar</SubmitButton>
