@@ -27,7 +27,7 @@ const FileUploader = ({ files, onChange }: FileUploaderProps) => {
           src={convertFileToUrl(files[0])}
           width={1000}
           height={1000}
-          alt="uploaded image"
+          alt="Imagem Upada"
           className="max-h-[400px] overflow-hidden object-cover"
         />
       ) : (
