@@ -36,7 +36,7 @@ const UserRegisterPage = async ({ params: { userId: userId } }: Props) => {
       </section>
 
       <Image
-        src="/assets/images/register-img.png"
+        src="/assets/images/register-img1.png"
         height={1000}
         width={1000}
         alt="Patient"
